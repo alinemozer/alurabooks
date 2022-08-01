@@ -30,6 +30,7 @@ body {
     position: absolute;
     top: 100%;
     width: 65vw;
+    z-index: 100;
 }
 
 .container__botao:checked~.lista-menu {
@@ -113,10 +114,6 @@ body {
     padding: 1em 0 0.5em 0;
 }
 
-.swipper-slide img {
-    width: 100%;
-}
-
 .swiper-button-prev,
 .swiper-button-next {
     display: none;
@@ -152,22 +149,23 @@ body {
 .descricao__titulo {
     color: var(--cor-titulo-menu);
     font-size: 16px;
+    margin: 0.5em 0.5em 0.5em 0;
 }
 
 .descricao__titulo-livro {
     color: var(--cor-titulo-livro);
     font-size: 18px;
-    margin: 0.5em 0;
+    margin: 0.5em 0.5em 0.5em 0;
 }
 
 .descricao__texto {
     font-size: 14px;
-    padding: 0 1em 0.5em 0;
+    padding: 0 0.5em 0.5em 0;
 }
 
 .descricao__imagem {
-    max-width: 40%;
-    height: 20%;
+    max-width: 145px;
+    height: 145px;
 }
 
 .card__botoes {
