@@ -60,6 +60,14 @@ body {
     text-transform: uppercase;
 }
 
+.container__titulo {
+    display: none;
+}
+
+.opcoes {
+    display: none;
+}
+
 .container__imagem {
     width: 55px;
     padding: 5px;
@@ -155,7 +163,7 @@ body {
 .descricao__titulo-livro {
     color: var(--cor-titulo-livro);
     font-size: 18px;
-    margin: 0.5em 0.5em 0.5em 0;
+    margin: 0.5em 2em 0.5em 0;
 }
 
 .descricao__texto {
@@ -245,4 +253,15 @@ body {
     color: var(--cor-titulo-livro);
     background: url("../images/Email.svg") no-repeat;
     padding: 0 0 0 2.2em;
+}
+
+.rodape {
+    border-top: 1px solid var(--cor-linha);
+    background-color: var(--cor-neutra);
+}
+
+.rodape__titulo {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1em;
 }

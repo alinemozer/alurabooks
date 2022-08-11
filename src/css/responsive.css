@@ -1,0 +1,117 @@
+@media screen and (min-width: 1024px) {
+    .cabecalho__menu-hamburguer {
+        display: none;
+    }
+
+    .cabecalho .container__titulo,
+    .container__titulo-negrito {
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+        margin: 0 0 0 0.1em;
+    }
+
+    .cabecalho .container__titulo {
+        font-weight: 400;
+        display: block;
+    }
+
+    .cabecalho .container__titulo-negrito {
+        font-weight: 700;
+    }
+
+    .cabecalho .opcoes {
+        display: flex;
+    }
+
+    .cabecalho .opcoes__item {
+        padding: 0 1em;
+        text-transform: uppercase;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .cabecalho .opcoes__item:hover,
+    .cabecalho .opcoes__link:hover {
+        background-color: var(--cor-titulo-livro);
+        color: white;
+    }
+
+    .cabecalho .opcoes__link {
+        color: var(--cor-neutra-secundaria);
+    }
+
+    .cabecalho .container__imagem-transparente {
+        display: none;
+    }
+
+    .cabecalho .opcoes__botao:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .cabecalho .opcoes__botao {
+        display: none;
+    }
+
+    .banner__titulo {
+        font-size: 36px;
+    }
+
+    .banner__pesquisa {
+        width: 50%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 5.5em;
+    }
+
+    .carrossel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block;
+        top: 65%;
+    }
+
+    .card {
+        width: 40%;
+        margin: 2em auto;
+    }
+
+    .topicos__titulo {
+        font-size: 24px;
+    }
+
+    .topicos__link {
+        font-size: 16px;
+    }
+
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato__titulo {
+        font-size: 24px;
+    }
+
+    .contato__descricao {
+        margin: 0 1em 0 0;
+        width: 30%;
+    }
+
+    .contato__email {
+        width: 30%;
+    }
+}
