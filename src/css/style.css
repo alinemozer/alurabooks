@@ -265,3 +265,7 @@ body {
     font-weight: 400;
     padding: 1em;
 }
+
+.lista-rodape {
+    display: none;
+}

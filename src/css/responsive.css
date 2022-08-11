@@ -92,6 +92,12 @@
         font-size: 24px;
     }
 
+    .topicos__lista {
+        max-width: 55%;
+        margin: 0 auto;
+        padding: 0 0 .5em;
+    }
+
     .topicos__link {
         font-size: 16px;
     }
@@ -114,4 +120,36 @@
     .contato__email {
         width: 30%;
     }
+
+    .rodape {
+        display: flex;
+        justify-content: space-around;
+        padding: 3em 0 2em;
+    }
+
+    .rodape__titulo {
+        font-size: 24px;
+    }
+
+    .lista-rodape {
+        display: block;
+    }
+
+    .lista__rodape__titulo {
+        font-size: 14px;
+        color: var(--cor-linha);
+        opacity: .7;
+        text-transform: uppercase;
+    }
+
+    .lista__rodape__item {
+        display: flex;
+        align-items: center;
+        margin: 0.5em 0;
+    }
+
+    .lista-rodape__link {
+        color: var(--cor-linha);
+        margin: 0 0 0 0.5em;
+    }  
 }
