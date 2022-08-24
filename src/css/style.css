@@ -16,6 +16,7 @@ body {
 .container {
     display: flex;
     align-items: center;
+    margin: 0 25px;
 }
 
 .cabecalho__menu-hamburguer {
@@ -65,6 +66,10 @@ body {
 }
 
 .opcoes {
+    display: none;
+}
+
+.container__texto {
     display: none;
 }
 
