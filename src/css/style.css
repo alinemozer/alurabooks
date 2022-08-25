@@ -21,7 +21,7 @@ body {
 
 .cabecalho__menu-hamburguer {
     width: 25px;
-    height: 25px;
+    height: 35px;
     background: url("../images/Menu.svg") center no-repeat;
     display: inline-block;
 }
@@ -59,6 +59,14 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+}
+
+.container__botao:checked~.container__rotulo>.cabecalho__menu-hamburguer {
+    background-image: url(../images/Menu\ Aberto.png);
+}
+
+.container__botao:checked~.container__rotulo {
+    background: var(--cor-itens-menu);
 }
 
 .container__titulo {
