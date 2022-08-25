@@ -172,7 +172,7 @@
         display: flex;
         align-items: center;
         margin: 0 1rem;
-        color: var(--cor-itens-menu);
+        color: var(--cor-titulo-livro);
     }
 
     .cabecalho .opcoes {
